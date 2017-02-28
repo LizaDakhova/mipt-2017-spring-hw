@@ -23,7 +23,7 @@ public:
     ~String();
 
     //длина строки
-    size_t length() const;
+    size_t length() const; 
 
     //поиск символа в строке
     size_t find(const char);
