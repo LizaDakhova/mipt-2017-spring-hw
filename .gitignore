@@ -4,3 +4,12 @@
 
 # cmake
 cmake-build-debug/
+
+#visual studio
+/mipt-2017-spring-hw.vcxproj.filters
+/mipt-2017-spring-hw.vcxproj
+/mipt-2017-spring-hw.VC.VC.opendb
+/mipt-2017-spring-hw.VC.db
+/mipt-2017-spring-hw.sln
+/Debug/*
+/.vs/*
