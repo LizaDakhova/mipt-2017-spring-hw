@@ -20,6 +20,7 @@ public:
 
     friend std::istream &operator>>(std::istream &, const Matrix &);
 
+    static Matrix eye(size_t);
 };
 
 
