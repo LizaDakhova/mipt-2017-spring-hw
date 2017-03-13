@@ -284,19 +284,6 @@ BigInt BigInt::operator-(const BigInt &that) const {
 //
 //}
 //
-std::istream &operator>>(std::istream & in, BigInt &bg) {
-	char *s = new char[8];
-	/*char c = '1';
-	for (int i = 0; c; ++i)
-	{
-		in >> c;
-		s[i] = c;
-	}*/
-	in >> s;
-	BigInt tmp(s);
-	bg = tmp;
-	return in;
-}
 
 std::ostream &operator<<(std::ostream &out, const BigInt &bg) {
 	int j = 0;

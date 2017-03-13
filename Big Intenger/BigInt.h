@@ -33,6 +33,5 @@ public:
 	//BigInt operator/(const BigInt &) const;
 	//friend BigInt operator*(int, const BigInt &);
 
-	friend std::istream &operator>>(std::istream &, BigInt &);
 	friend std::ostream &operator<<(std::ostream &, const BigInt &);
 };
