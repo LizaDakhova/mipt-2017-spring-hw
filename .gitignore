@@ -4,3 +4,26 @@
 
 # cmake
 cmake-build-debug/
+
+#visual studio
+/mipt-2017-spring-hw.vcxproj.filters
+/mipt-2017-spring-hw.vcxproj
+/mipt-2017-spring-hw.VC.VC.opendb
+/mipt-2017-spring-hw.VC.db
+/mipt-2017-spring-hw.sln
+/Debug/*
+/.vs/*
+Matrix/Matrix.VC.db
+*.exe
+*.suo
+Matrix/Debug/.NETFramework,Version=v4.5.2.AssemblyAttributes.asm
+*.obj
+*.pdb
+*.tlog
+*.sln
+Matrix/Debug/Matrix.exe.metagen
+*.cache
+Matrix/Matrix.vcxproj
+*.filters
+Matrix/Debug/Matrix.log
+src/cpp/lesson3/String.h
